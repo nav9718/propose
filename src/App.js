@@ -239,7 +239,7 @@ export default function App() {
                 () => "💋"
               ).join(" ")}
               <br />
-              You have sent {kissCount} virtual{" "}
+              {/* You have sent {kissCount} virtual{" "} */}
               {kissCount === 1 ? "kiss" : "kisses"}!
             </p>
           )}
